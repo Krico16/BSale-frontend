@@ -134,3 +134,7 @@ label.logo {
 	pointer-events: none;
 	color: gray;
 }
+
+.bottom-bar{
+	padding: 35px;
+}
