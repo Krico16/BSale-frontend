@@ -1,4 +1,4 @@
-var backendUrl = "http://localhost:9876/api";
+var backendUrl = "https://aqueous-woodland-92918.herokuapp.com/api";
 
 async function getAllProducts(page = 1, name, category) {
     var baseUrl = `${backendUrl}/products?page=${page}`;
