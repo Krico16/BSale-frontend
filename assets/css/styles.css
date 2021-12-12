@@ -7,10 +7,6 @@
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-body {
-	background-color: #4d4d4d !important;
-}
-
 nav {
 	background: #ff6815;
 	height: 80px;
@@ -56,11 +52,12 @@ label.logo {
 }
 
 .customCard {
-	background-color: #b35320;
+	background-color: rgb(255, 216, 165);
 	padding: 1rem;
 	margin: 10px 10px;
 	font-size: 1rem;
 	transition: 0.5s;
+	border-radius: 25px;
 }
 
 .customCard:hover {
@@ -77,10 +74,15 @@ label.logo {
 
 .customCard .description .itemName {
 	text-align: center;
+	font-weight: 600;
 }
 
 .customCard .description .itemCategory{
     text-align: center;
+}
+
+.customCard .description .itemCategory .bg-secondary{
+	background-color: rgb(109, 109, 109) !important;
 }
 .customCard .description .box {
 	width: 100%;
@@ -102,7 +104,7 @@ label.logo {
 .customCard .description .box .buybtn button {
 	padding: 0.2rem 0.5rem;
 	cursor: pointer;
-	background-color: cadetblue;
+	background-color: #ff6815;
 	border: none;
 	border-radius: 10px;
 	outline: 0;
@@ -111,7 +113,7 @@ label.logo {
 .customCard .description .box .itemPrice .discounted {
 	display: inline-block;
 	position: relative;
-	color: lightcyan;
+	color: red;
 }
 
 .customCard .description .itemPrice .discounted::before {
@@ -130,5 +132,5 @@ label.logo {
 		transparent 54.5%
 	);
 	pointer-events: none;
-	color: #c0392b;
+	color: gray;
 }
